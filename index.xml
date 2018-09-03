@@ -10,5 +10,69 @@
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>PRISMING: Blockchain for in-kind donation</title>
+      <link>https://hkim07.github.io/project/prisming/</link>
+      <pubDate>Mon, 03 Sep 2018 14:37:00 -0500</pubDate>
+      
+      <guid>https://hkim07.github.io/project/prisming/</guid>
+      <description>&lt;p&gt;PRISMING, a nonprofit project for in-kind donation, builds private blockchain platform to enhance transparency and efficiency. This project has been supported by Seoul NPO Center.&lt;/p&gt;
+
+&lt;p&gt;In Aug 2018, I gave two talks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New Kids on the Blockchain, WeWork at Euljiro, Seoul, Republic of Korea, 31 Aug 2018.&lt;/li&gt;
+&lt;li&gt;Crypto on the Beach: Blockchain for Good, Naksan Beach Hotel, Yangyang, Gangwon-do, Republic of Korea, 19 Aug 2018.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the details, please check the project website, &lt;a href=&#34;http://prisming.io&#34; target=&#34;_blank&#34;&gt;http://prisming.io&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Does pitch type-zone uncertainty matter to pitcher&#39;s performance?</title>
+      <link>https://hkim07.github.io/publication/does-pitch-type-zone-uncertainty-matter-to-pitchers-performance/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/does-pitch-type-zone-uncertainty-matter-to-pitchers-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Horizon scanning in policy research database with a probabilistic topic model</title>
+      <link>https://hkim07.github.io/publication/horizon-scanning-lda/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/horizon-scanning-lda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embracing networks of national policy research in future foresight</title>
+      <link>https://hkim07.github.io/publication/embracing-networks-national-policy-research-in-future-foresight/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/embracing-networks-national-policy-research-in-future-foresight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bibliometric analysis of collaboration network and the role of research station in Antarctic science</title>
+      <link>https://hkim07.github.io/publication/bibliometric-analysis-of-collaboration-network-and-the-role-of-research-station-in-antarctic-science/</link>
+      <pubDate>Tue, 22 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/bibliometric-analysis-of-collaboration-network-and-the-role-of-research-station-in-antarctic-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study on Technology Forecasting based on Co-occurrence Network of Keyword in Multidisciplinary Journals [written in Korean]</title>
+      <link>https://hkim07.github.io/publication/a-study-on-technology-forecasting-based-on-co-occurrence-network-of-keyword-in-multidisciplinary-journals/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/a-study-on-technology-forecasting-based-on-co-occurrence-network-of-keyword-in-multidisciplinary-journals/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

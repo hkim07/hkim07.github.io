@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foresight on Hyunuk Kim</title>
+    <link>https://hkim07.github.io/tags/foresight/</link>
+    <description>Recent content in Foresight on Hyunuk Kim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 15 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hkim07.github.io/tags/foresight/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Horizon scanning in policy research database with a probabilistic topic model</title>
+      <link>https://hkim07.github.io/publication/horizon-scanning-lda/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/horizon-scanning-lda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embracing networks of national policy research in future foresight</title>
+      <link>https://hkim07.github.io/publication/embracing-networks-national-policy-research-in-future-foresight/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/embracing-networks-national-policy-research-in-future-foresight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study on Technology Forecasting based on Co-occurrence Network of Keyword in Multidisciplinary Journals [written in Korean]</title>
+      <link>https://hkim07.github.io/publication/a-study-on-technology-forecasting-based-on-co-occurrence-network-of-keyword-in-multidisciplinary-journals/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/a-study-on-technology-forecasting-based-on-co-occurrence-network-of-keyword-in-multidisciplinary-journals/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

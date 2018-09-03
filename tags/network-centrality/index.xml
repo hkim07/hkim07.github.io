@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Centrality on Hyunuk Kim</title>
+    <link>https://hkim07.github.io/tags/network-centrality/</link>
+    <description>Recent content in Network Centrality on Hyunuk Kim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hkim07.github.io/tags/network-centrality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Study on Technology Forecasting based on Co-occurrence Network of Keyword in Multidisciplinary Journals [written in Korean]</title>
+      <link>https://hkim07.github.io/publication/a-study-on-technology-forecasting-based-on-co-occurrence-network-of-keyword-in-multidisciplinary-journals/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkim07.github.io/publication/a-study-on-technology-forecasting-based-on-co-occurrence-network-of-keyword-in-multidisciplinary-journals/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
