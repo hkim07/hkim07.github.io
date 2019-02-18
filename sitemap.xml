@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://hkim07.github.io/publication/nuclear-fusion/</loc>
+      <lastmod>2019-02-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://hkim07.github.io/project/prisming/</loc>
       <lastmod>2018-09-03T14:37:00-05:00</lastmod>
     </url>
@@ -85,7 +93,7 @@
     <url>
     
       <loc>https://hkim07.github.io/publication_types/2/</loc>
-      <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -155,6 +163,15 @@
     
     <url>
     
+      <loc>https://hkim07.github.io/tags/dynamic-topic-model/</loc>
+      <lastmod>2019-02-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://hkim07.github.io/tags/foresight/</loc>
       <lastmod>2018-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -209,6 +226,15 @@
     
     <url>
     
+      <loc>https://hkim07.github.io/tags/nuclear-fusion/</loc>
+      <lastmod>2019-02-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://hkim07.github.io/project/</loc>
       <lastmod>2018-09-03T14:37:00-05:00</lastmod>
       <priority>0</priority>
@@ -219,7 +245,7 @@
     <url>
     
       <loc>https://hkim07.github.io/publication_types/</loc>
-      <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -265,6 +291,15 @@
     
       <loc>https://hkim07.github.io/tags/time-series/</loc>
       <lastmod>2015-11-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://hkim07.github.io/tags/tokamak/</loc>
+      <lastmod>2019-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
