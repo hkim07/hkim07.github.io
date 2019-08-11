@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Hyunuk Kim</title>
-    <link>https://hkim07.github.io/publication_types/2/</link>
-      <atom:link href="https://hkim07.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    <description>2</description>
+    <title>Inho Hong | Hyunuk Kim</title>
+    <link>https://hkim07.github.io/authors/inho-hong/</link>
+      <atom:link href="https://hkim07.github.io/authors/inho-hong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Inho Hong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Feb 2019 09:18:10 -0400</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
-      <title>2</title>
-      <link>https://hkim07.github.io/publication_types/2/</link>
+      <title>Inho Hong</title>
+      <link>https://hkim07.github.io/authors/inho-hong/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://hkim07.github.io/publication/fusion/</link>
       <pubDate>Fri, 08 Feb 2019 09:18:10 -0400</pubDate>
       <guid>https://hkim07.github.io/publication/fusion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Horizon scanning in policy research database with a probabilistic topic model</title>
-      <link>https://hkim07.github.io/publication/horizon/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/publication/horizon/</guid>
       <description></description>
     </item>
     

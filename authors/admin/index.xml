@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hyunuk Kim</title>
+    <link>https://hkim07.github.io/authors/admin/</link>
+      <atom:link href="https://hkim07.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hyunuk Kim</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://hkim07.github.io/img/icon-192.png</url>
+      <title>Hyunuk Kim</title>
+      <link>https://hkim07.github.io/authors/admin/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://hkim07.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a postdoctoral associate at Questrom School of Business, Boston University. My research interests are computational social science, network science, and innovation, especially about how collective and evolutionary behaviors create knowledge and culture in the past, present, and future.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

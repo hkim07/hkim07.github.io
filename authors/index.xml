@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Hyunuk Kim</title>
+    <link>https://hkim07.github.io/authors/</link>
+      <atom:link href="https://hkim07.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Feb 2019 09:18:10 -0400</lastBuildDate>
+    <image>
+      <url>https://hkim07.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://hkim07.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>Hyunuk Kim</title>
+      <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
+      <pubDate>Fri, 08 Feb 2019 09:18:10 -0400</pubDate>
+      <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inho Hong</title>
+      <link>https://hkim07.github.io/authors/inho-hong/</link>
+      <pubDate>Fri, 08 Feb 2019 09:18:10 -0400</pubDate>
+      <guid>https://hkim07.github.io/authors/inho-hong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Woo-Sung Jung</title>
+      <link>https://hkim07.github.io/authors/woo-sung-jung/</link>
+      <pubDate>Fri, 08 Feb 2019 09:18:10 -0400</pubDate>
+      <guid>https://hkim07.github.io/authors/woo-sung-jung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sang-Jin Ahn</title>
+      <link>https://hkim07.github.io/authors/sang-jin-ahn/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/sang-jin-ahn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hkim07.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a postdoctoral associate at Questrom School of Business, Boston University. My research interests are computational social science, network science, and innovation, especially about how collective and evolutionary behaviors create knowledge and culture in the past, present, and future.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
