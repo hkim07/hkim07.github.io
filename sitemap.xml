@@ -3,6 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hkim07.github.io/tags/blockchain/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/tags/donation/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/project/prisming/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/project/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/tags/social-good/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/tags/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hkim07.github.io/publication_types/2/</loc>
     <lastmod>2019-02-08T09:18:10-04:00</lastmod>
     <priority>0</priority>
@@ -16,12 +57,6 @@
   
   <url>
     <loc>https://hkim07.github.io/authors/hyunuk-kim/</loc>
-    <lastmod>2019-02-08T09:18:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hkim07.github.io/</loc>
     <lastmod>2019-02-08T09:18:10-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -75,16 +110,7 @@
   </url>
   
   <url>
-    <loc>https://hkim07.github.io/post/</loc>
-  </url>
-  
-  <url>
     <loc>https://hkim07.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hkim07.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blockchain on Hyunuk Kim</title>
+    <title>Blockchain | Hyunuk Kim</title>
     <link>https://hkim07.github.io/tags/blockchain/</link>
-    <description>Recent content in Blockchain on Hyunuk Kim</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 03 Sep 2018 14:37:00 -0500</lastBuildDate>
-    
-	<atom:link href="https://hkim07.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://hkim07.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blockchain</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Sep 2019 05:53:45 -0400</lastBuildDate>
+    <image>
+      <url>https://hkim07.github.io/img/icon-192.png</url>
+      <title>Blockchain</title>
+      <link>https://hkim07.github.io/tags/blockchain/</link>
+    </image>
     
     <item>
       <title>PRISMING: Blockchain for in-kind donation</title>
       <link>https://hkim07.github.io/project/prisming/</link>
-      <pubDate>Mon, 03 Sep 2018 14:37:00 -0500</pubDate>
-      
+      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
       <guid>https://hkim07.github.io/project/prisming/</guid>
-      <description>PRISMING, a nonprofit project for in-kind donation, builds private blockchain platform to enhance transparency and efficiency. This project has been supported by Seoul NPO Center.
-In Aug 2018, I gave two talks:
- New Kids on the Blockchain, WeWork at Euljiro, Seoul, Republic of Korea, 31 Aug 2018. Crypto on the Beach: Blockchain for Good, Naksan Beach Hotel, Yangyang, Gangwon-do, Republic of Korea, 19 Aug 2018.  For the details, please check the project website, http://prisming.</description>
+      <description>&lt;p&gt;PRISMING, a nonprofit project for in-kind donation, builds private blockchain platform to enhance transparency and efficiency. This project was supported by Seoul NPO Center. We also collaborated with Ground X, a Korean blockchain lead, and SK Happiness Foundation, a Korean nonprofit organization, for developing a real world case.&lt;/p&gt;
+
+&lt;p&gt;In Aug 2018, I gave two talks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New Kids on the Blockchain, WeWork at Euljiro, Seoul, Republic of Korea, 31 Aug 2018.&lt;/li&gt;
+&lt;li&gt;Crypto on the Beach: Blockchain for Good, Naksan Beach Hotel, Yangyang, Gangwon-do, Republic of Korea, 19 Aug 2018.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;During the first half of 2019, we collaborated with Ground X and SK Happiness Foundation for a proof-of-concept pilot project for in-kind donation. Details can be found in this public report written by Ground X (&lt;a href=&#34;http://bit.ly/2019GXReport_Donation_EN&#34; target=&#34;_blank&#34;&gt;http://bit.ly/2019GXReport_Donation_EN&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;For the details, please check the project website, &lt;a href=&#34;http://prisming.io&#34; target=&#34;_blank&#34;&gt;http://prisming.io&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

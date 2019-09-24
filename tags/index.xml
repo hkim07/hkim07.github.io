@@ -5,12 +5,36 @@
     <link>https://hkim07.github.io/tags/</link>
       <atom:link href="https://hkim07.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Sep 2019 05:53:45 -0400</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://hkim07.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Blockchain</title>
+      <link>https://hkim07.github.io/tags/blockchain/</link>
+      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
+      <guid>https://hkim07.github.io/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Donation</title>
+      <link>https://hkim07.github.io/tags/donation/</link>
+      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
+      <guid>https://hkim07.github.io/tags/donation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Good</title>
+      <link>https://hkim07.github.io/tags/social-good/</link>
+      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
+      <guid>https://hkim07.github.io/tags/social-good/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
