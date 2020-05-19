@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COVID-19 | Hyunuk Kim</title>
+    <link>https://hkim07.github.io/tags/covid-19/</link>
+      <atom:link href="https://hkim07.github.io/tags/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <description>COVID-19</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hkim07.github.io/img/icon-192.png</url>
+      <title>COVID-19</title>
+      <link>https://hkim07.github.io/tags/covid-19/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19 Twitter Misinformation Monitor for Fact Checkers</title>
+      <link>https://hkim07.github.io/project/factchecker/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/project/factchecker/</guid>
+      <description>&lt;p&gt;During a time of crisis, as with the COVID-19 pandemic, misinformation can emerge rapidly on online social media platforms such as Twitter. When it does, detecting it can be a challenge because we do not know what kind of misinformation is spreading. Typical keyword-search methods are difficult to employ when you aren&amp;rsquo;t sure what you&amp;rsquo;re looking for, and also tend to return a large volume of accurate information. Finding misinformation in this large volume of posts is like finding a needle in a haystack.&lt;/p&gt;
+
+&lt;p&gt;However, we noticed that many social media users fact check misinformation when they encounter it. These fact checks are much easier to find. While we may know little about emerging misinformation, we often do know at least one source of accurate information, which we can leverage to identify fact checks. We found that, by looking for Twitter replies that seem to echo accurate information, we could identify tweets that often contained misinformation. While the misinformation we discover with this approach has already been fact checked once, it is often not centrally known by organizations and researchers who are interested in tracking, classifying and addressing misinformation in real time. Moreover, we noticed that the timelines of friends and followers of misinformation posters tended to contain a higher proportion of misinformation posts. Our prototype is based on these observations and enables crowdsourcing fact checking by providing an interface to a team of (volunteer of professional) fact checkers to help them identify, classify, and fact check misinformation before it can be retweeted and spread further.&lt;/p&gt;
+
+&lt;p&gt;Please check our project page at the COVID-19 Global Hackathon 1.0 (&lt;a href=&#34;https://devpost.com/software/covid-19-misinformation-monitoring-for-fact-checking&#34; target=&#34;_blank&#34;&gt;https://devpost.com/software/covid-19-misinformation-monitoring-for-fact-checking&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

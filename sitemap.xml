@@ -3,6 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hkim07.github.io/authors/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/tags/covid-19/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/project/factchecker/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/authors/dylan-walker/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/authors/hyunuk-kim/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/tags/misinformation/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/project/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/tags/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/publication_types/2/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/publication/covid_misinfo/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/publication_types/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/publication/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hkim07.github.io/tags/blockchain/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
     <priority>0</priority>
@@ -15,7 +90,13 @@
   </url>
   
   <url>
-    <loc>https://hkim07.github.io/</loc>
+    <loc>https://hkim07.github.io/authors/jisung-yoon/</loc>
+    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkim07.github.io/authors/jiyoung-moon/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -26,54 +107,13 @@
   </url>
   
   <url>
-    <loc>https://hkim07.github.io/project/</loc>
-    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hkim07.github.io/tags/social-good/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hkim07.github.io/tags/</loc>
-    <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hkim07.github.io/publication_types/2/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hkim07.github.io/authors/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hkim07.github.io/publication/horizon/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hkim07.github.io/authors/hyunuk-kim/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hkim07.github.io/publication_types/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hkim07.github.io/publication/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   

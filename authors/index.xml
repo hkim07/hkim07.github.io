@@ -5,7 +5,7 @@
     <link>https://hkim07.github.io/authors/</link>
       <atom:link href="https://hkim07.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Dylan Walker</title>
+      <link>https://hkim07.github.io/authors/dylan-walker/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/dylan-walker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hyunuk Kim</title>
       <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jisung Yoon</title>
+      <link>https://hkim07.github.io/authors/jisung-yoon/</link>
+      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
+      <guid>https://hkim07.github.io/authors/jisung-yoon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jiyoung Moon</title>
+      <link>https://hkim07.github.io/authors/jiyoung-moon/</link>
+      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
+      <guid>https://hkim07.github.io/authors/jiyoung-moon/</guid>
       <description></description>
     </item>
     
