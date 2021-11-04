@@ -13,61 +13,27 @@
     </image>
     
     <item>
-      <title>COVID-19 Twitter misinformation monitor for fact checkers</title>
-      <link>https://hkim07.github.io/project/factchecker/</link>
+      <title>Projects</title>
+      <link>https://hkim07.github.io/project/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/project/factchecker/</guid>
-      <description>&lt;p&gt;During a time of crisis, as with the COVID-19 pandemic, misinformation can emerge rapidly on online social media platforms such as Twitter. When it does, detecting it can be a challenge because we do not know what kind of misinformation is spreading. Typical keyword-search methods are difficult to employ when you aren&amp;rsquo;t sure what you&amp;rsquo;re looking for, and also tend to return a large volume of accurate information. Finding misinformation in this large volume of posts is like finding a needle in a haystack.&lt;/p&gt;
-
-&lt;p&gt;However, we noticed that many social media users fact check misinformation when they encounter it. These fact checks are much easier to find. While we may know little about emerging misinformation, we often do know at least one source of accurate information, which we can leverage to identify fact checks. We found that, by looking for Twitter replies that seem to echo accurate information, we could identify tweets that often contained misinformation. While the misinformation we discover with this approach has already been fact checked once, it is often not centrally known by organizations and researchers who are interested in tracking, classifying and addressing misinformation in real time. Moreover, we noticed that the timelines of friends and followers of misinformation posters tended to contain a higher proportion of misinformation posts. Our prototype is based on these observations and enables crowdsourcing fact checking by providing an interface to a team of (volunteer of professional) fact checkers to help them identify, classify, and fact check misinformation before it can be retweeted and spread further.&lt;/p&gt;
-
-&lt;p&gt;Please check our project page at the COVID-19 Global Hackathon 1.0 (&lt;a href=&#34;https://devpost.com/software/covid-19-misinformation-monitoring-for-fact-checking&#34; target=&#34;_blank&#34;&gt;https://devpost.com/software/covid-19-misinformation-monitoring-for-fact-checking&lt;/a&gt;).&lt;/p&gt;
-</description>
+      <guid>https://hkim07.github.io/project/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Leveraging volunteer fact checking to identify misinformation about COVID-19 in social media</title>
-      <link>https://hkim07.github.io/publication/covid_misinfo/</link>
+      <title>Publications</title>
+      <link>https://hkim07.github.io/publication/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/publication/covid_misinfo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://misinforeview.hks.harvard.edu/article/leveraging-volunteer-fact-checking-to-identify-misinformation-about-covid-19-in-social-media/&#34; target=&#34;_blank&#34;&gt;Link to the paper&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://hkim07.github.io/publication/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>PRISMING: Blockchain for in-kind donations</title>
-      <link>https://hkim07.github.io/project/prisming/</link>
-      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
-      <guid>https://hkim07.github.io/project/prisming/</guid>
-      <description>&lt;p&gt;PRISMING builds a private blockchain platform to enhance transparency and efficiency of in-kind donations. This project was supported by the Seoul NPO Center. We also collaborated with the Ground X, a Korean blockchain lead, and the SK Happiness Foundation, a Korean nonprofit organization, for developing a real-world case.&lt;/p&gt;
-
-&lt;p&gt;In August 2018, I gave two talks:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;New Kids on the Blockchain, WeWork at Euljiro, Seoul, Republic of Korea / August 31, 2018.&lt;/li&gt;
-&lt;li&gt;Crypto on the Beach: Blockchain for Good, Naksan Beach Hotel, Yangyang, Gangwon-do, Republic of Korea / August 19, 2018.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;During the first half of 2019, we collaborated with the Ground X and the SK Happiness Foundation to develop a proof-of-concept pilot system for in-kind donations. Details can be found in the public report written by the Ground X (&lt;a href=&#34;http://bit.ly/2019GXReport_Donation_EN&#34; target=&#34;_blank&#34;&gt;http://bit.ly/2019GXReport_Donation_EN&lt;/a&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Horizon scanning in policy research database with a probabilistic topic model</title>
-      <link>https://hkim07.github.io/publication/horizon/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/publication/horizon/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0040162518302099&#34; target=&#34;_blank&#34;&gt;Link to the paper&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Measuring national capability over big science’s multidisciplinarity: A case study of nuclear fusion research</title>
-      <link>https://hkim07.github.io/publication/fusion/</link>
-      <pubDate>Fri, 08 Feb 2019 09:18:10 -0400</pubDate>
-      <guid>https://hkim07.github.io/publication/fusion/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0211963&#34; target=&#34;_blank&#34;&gt;Link to the paper&lt;/a&gt;&lt;/p&gt;
-</description>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://hkim07.github.io/talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/talk/</guid>
+      <description></description>
     </item>
     
   </channel>

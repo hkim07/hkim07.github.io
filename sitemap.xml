@@ -1,156 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://hkim07.github.io/authors/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/tags/covid-19/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/project/factchecker/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/dylan-walker/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/hyunuk-kim/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/tags/misinformation/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/project/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/tags/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/publication_types/2/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/publication/covid_misinfo/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/publication_types/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/publication/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/tags/blockchain/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/tags/donation/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/jisung-yoon/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/jiyoung-moon/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/project/prisming/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/tags/social-good/</loc>
     <lastmod>2019-09-24T05:53:45-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/publication/horizon/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/sang-jin-ahn/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/woo-sung-jung/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/inho-hong/</loc>
     <lastmod>2019-02-08T09:18:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/publication/fusion/</loc>
     <lastmod>2019-02-08T09:18:10-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hkim07.github.io/talk/</loc>
   </url>
-  
 </urlset>
