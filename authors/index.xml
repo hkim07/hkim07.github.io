@@ -5,7 +5,7 @@
     <link>https://hkim07.github.io/authors/</link>
       <atom:link href="https://hkim07.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,26 +13,90 @@
     </image>
     
     <item>
-      <title>Dylan Walker</title>
-      <link>https://hkim07.github.io/authors/dylan-walker/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/dylan-walker/</guid>
+      <title>Arunima Krishna</title>
+      <link>https://hkim07.github.io/authors/arunima-krishna/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/arunima-krishna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chris Wells</title>
+      <link>https://hkim07.github.io/authors/chris-wells/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/chris-wells/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gianluca Stringhini</title>
+      <link>https://hkim07.github.io/authors/gianluca-stringhini/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/gianluca-stringhini/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hyunuk Kim</title>
       <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irena Vodenska</title>
+      <link>https://hkim07.github.io/authors/irena-vodenska/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/irena-vodenska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michelle Amazeen</title>
+      <link>https://hkim07.github.io/authors/michelle-amazeen/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/michelle-amazeen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sarah Finnie Robinson</title>
+      <link>https://hkim07.github.io/authors/sarah-finnie-robinson/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/sarah-finnie-robinson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jisung Yoon</title>
       <link>https://hkim07.github.io/authors/jisung-yoon/</link>
-      <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/jisung-yoon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Munjung Kim</title>
+      <link>https://hkim07.github.io/authors/munjung-kim/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/munjung-kim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Woo-Sung Jung</title>
+      <link>https://hkim07.github.io/authors/woo-sung-jung/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/woo-sung-jung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dylan Walker</title>
+      <link>https://hkim07.github.io/authors/dylan-walker/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/dylan-walker/</guid>
       <description></description>
     </item>
     
@@ -53,14 +117,6 @@
     </item>
     
     <item>
-      <title>Woo-Sung Jung</title>
-      <link>https://hkim07.github.io/authors/woo-sung-jung/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/woo-sung-jung/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Inho Hong</title>
       <link>https://hkim07.github.io/authors/inho-hong/</link>
       <pubDate>Fri, 08 Feb 2019 09:18:10 -0400</pubDate>
@@ -75,6 +131,38 @@
       <guid>https://hkim07.github.io/authors/admin/</guid>
       <description>&lt;p&gt;I am an Assistant Professor of Administrative Sciences at Boston University Metropolitan College (BU MET). During two years prior to joining BU MET, I was a Postdoctoral Associate in the Information Systems Department at Boston University Questrom School of Business (affiliated with the Institute for Health System Innovation &amp;amp; Policy / Advisor: &lt;a href=&#34;http://dylantwalker.com&#34;&gt;Prof. Dylan Walker&lt;/a&gt;). In graduate studies, I was under the mentorship of &lt;a href=&#34;http://www.wsjung.net/&#34;&gt;Prof. Woo-Sung Jung&lt;/a&gt; (Department of Industrial and Management Engineering, POSTECH) and &lt;a href=&#34;http://hyoun.me&#34;&gt;Prof. Hyejin Youn&lt;/a&gt; (Kellogg School of Management, Northwestern University). My research aims to understand how individuals process information and collectively shape sociotechnical systems. I use network science, natural language processing, and machine learning methods to identify latent factors of knowledge creation, cultural evolution, and misinformation spread on social media.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hkim07.github.io/authors/jiaqili/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/jiaqili/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hkim07.github.io/authors/jihuigan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/jihuigan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hkim07.github.io/authors/taehoonkim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/taehoonkim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hkim07.github.io/authors/yanruzhou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/yanruzhou/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -5,12 +5,21 @@
     <link>https://hkim07.github.io/authors/jisung-yoon/</link>
       <atom:link href="https://hkim07.github.io/authors/jisung-yoon/index.xml" rel="self" type="application/rss+xml" />
     <description>Jisung Yoon</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Sep 2019 05:53:45 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Jisung Yoon</title>
       <link>https://hkim07.github.io/authors/jisung-yoon/</link>
     </image>
+    
+    <item>
+      <title>Quantifying the topic disparity of scientific articles</title>
+      <link>https://hkim07.github.io/publication/topic_disparity/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/publication/topic_disparity/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www2022.thewebconf.org/PaperFiles/112.pdf&#34;&gt;Link to the paper&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PRISMING: Blockchain for in-kind donations</title>

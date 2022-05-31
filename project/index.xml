@@ -5,12 +5,21 @@
     <link>https://hkim07.github.io/project/</link>
       <atom:link href="https://hkim07.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Projects</title>
       <link>https://hkim07.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Data and Misinformation in an Era of Sustainability and Climate Change Crises</title>
+      <link>https://hkim07.github.io/project/climatechange/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/project/climatechange/</guid>
+      <description>&lt;p&gt;Please visit the page &lt;a href=&#34;https://www.bu.edu/ise/collaborate/faculty/focused-research-program&#34;&gt;https://www.bu.edu/ise/collaborate/faculty/focused-research-program&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>COVID-19 Twitter misinformation monitor for fact checkers</title>
