@@ -5,12 +5,36 @@
     <link>https://hkim07.github.io/authors/</link>
       <atom:link href="https://hkim07.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://hkim07.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Hyunuk Kim</title>
+      <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jisung Yoon</title>
+      <link>https://hkim07.github.io/authors/jisung-yoon/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/jisung-yoon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Woo-Sung Jung</title>
+      <link>https://hkim07.github.io/authors/woo-sung-jung/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/woo-sung-jung/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Arunima Krishna</title>
@@ -33,14 +57,6 @@
       <link>https://hkim07.github.io/authors/gianluca-stringhini/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/gianluca-stringhini/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hyunuk Kim</title>
-      <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
-      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
       <description></description>
     </item>
     
@@ -69,26 +85,10 @@
     </item>
     
     <item>
-      <title>Jisung Yoon</title>
-      <link>https://hkim07.github.io/authors/jisung-yoon/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/jisung-yoon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Munjung Kim</title>
       <link>https://hkim07.github.io/authors/munjung-kim/</link>
       <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/munjung-kim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Woo-Sung Jung</title>
-      <link>https://hkim07.github.io/authors/woo-sung-jung/</link>
-      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/woo-sung-jung/</guid>
       <description></description>
     </item>
     
