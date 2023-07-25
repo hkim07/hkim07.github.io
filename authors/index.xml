@@ -5,7 +5,7 @@
     <link>https://hkim07.github.io/authors/</link>
       <atom:link href="https://hkim07.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Chris Proctor</title>
+      <link>https://hkim07.github.io/authors/chris-proctor/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/chris-proctor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dylan Walker</title>
+      <link>https://hkim07.github.io/authors/dylan-walker/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/dylan-walker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hyunuk Kim</title>
       <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
-      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ronan McCarthy</title>
+      <link>https://hkim07.github.io/authors/ronan-mccarthy/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/ronan-mccarthy/</guid>
       <description></description>
     </item>
     
@@ -93,14 +117,6 @@
     </item>
     
     <item>
-      <title>Dylan Walker</title>
-      <link>https://hkim07.github.io/authors/dylan-walker/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/dylan-walker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jiyoung Moon</title>
       <link>https://hkim07.github.io/authors/jiyoung-moon/</link>
       <pubDate>Tue, 24 Sep 2019 05:53:45 -0400</pubDate>
@@ -129,40 +145,9 @@
       <link>https://hkim07.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am an Assistant Professor of Administrative Sciences at Boston University Metropolitan College (BU MET). During two years prior to joining BU MET, I was a Postdoctoral Associate in the Information Systems Department at Boston University Questrom School of Business (affiliated with the Institute for Health System Innovation &amp;amp; Policy / Advisor: &lt;a href=&#34;http://dylantwalker.com&#34;&gt;Prof. Dylan Walker&lt;/a&gt;). In graduate studies, I was under the mentorship of &lt;a href=&#34;http://www.wsjung.net/&#34;&gt;Prof. Woo-Sung Jung&lt;/a&gt; (Department of Industrial and Management Engineering, POSTECH) and &lt;a href=&#34;http://hyoun.me&#34;&gt;Prof. Hyejin Youn&lt;/a&gt; (Kellogg School of Management, Northwestern University). My research aims to understand how individuals process information and collectively shape sociotechnical systems. I use network science, natural language processing, and machine learning methods to identify latent factors of knowledge creation, cultural evolution, and misinformation spread on social media.&lt;/p&gt;
+      <description>&lt;p&gt;I am an Assistant Professor of Business Analytics at Elon University&amp;rsquo;s Love School of Business. My research aims to understand how individuals process information and collectively shape sociotechnical systems. I use network science, natural language processing, and machine learning methods to identify latent factors of knowledge creation, cultural evolution, and misinformation spread on social media.&lt;/p&gt;
+&lt;p&gt;I was an Assistant Professor at Boston University Metropolitan College and a Postdoctoral Associate at Boston University Questrom School of Business (affiliated with the Institute for Health System Innovation &amp;amp; Policy / Advisor: &lt;a href=&#34;http://dylantwalker.com&#34;&gt;Prof. Dylan Walker&lt;/a&gt;). In graduate studies, I was under the mentorship of &lt;a href=&#34;http://www.wsjung.net/&#34;&gt;Prof. Woo-Sung Jung&lt;/a&gt; (Department of Industrial and Management Engineering, POSTECH) and &lt;a href=&#34;http://hyoun.me&#34;&gt;Prof. Hyejin Youn&lt;/a&gt; (Kellogg School of Management, Northwestern University).&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hkim07.github.io/authors/jiaqili/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/jiaqili/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hkim07.github.io/authors/taehoonkim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/taehoonkim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hkim07.github.io/authors/yanruzhou/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/yanruzhou/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hkim07.github.io/authors/zihuigan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/zihuigan/</guid>
-      <description></description>
     </item>
     
   </channel>

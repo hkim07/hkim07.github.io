@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hkim07.github.io/publication_types/1/</loc>
-    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
+    <loc>https://hkim07.github.io/publication_types/2/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hkim07.github.io/authors/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/authors/chris-proctor/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/authors/dylan-walker/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/authors/hyunuk-kim/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/publication_types/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/publication/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/authors/ronan-mccarthy/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/publication/amr/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkim07.github.io/publication_types/1/</loc>
     <lastmod>2022-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hkim07.github.io/publication/hotspot/</loc>
     <lastmod>2022-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hkim07.github.io/authors/hyunuk-kim/</loc>
-    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hkim07.github.io/</loc>
-    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hkim07.github.io/authors/jisung-yoon/</loc>
-    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hkim07.github.io/publication_types/</loc>
-    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hkim07.github.io/publication/</loc>
     <lastmod>2022-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hkim07.github.io/authors/woo-sung-jung/</loc>
@@ -74,12 +89,6 @@
     <loc>https://hkim07.github.io/project/factchecker/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hkim07.github.io/authors/dylan-walker/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hkim07.github.io/publication_types/2/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hkim07.github.io/publication/covid_misinfo/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -112,17 +121,7 @@
   </url><url>
     <loc>https://hkim07.github.io/authors/admin/</loc>
   </url><url>
-    <loc>https://hkim07.github.io/authors/jiaqili/</loc>
-  </url><url>
-    <loc>https://hkim07.github.io/authors/taehoonkim/</loc>
-  </url><url>
-    <loc>https://hkim07.github.io/authors/yanruzhou/</loc>
-  </url><url>
-    <loc>https://hkim07.github.io/authors/zihuigan/</loc>
-  </url><url>
     <loc>https://hkim07.github.io/categories/</loc>
-  </url><url>
-    <loc>https://hkim07.github.io/bsi/</loc>
   </url><url>
     <loc>https://hkim07.github.io/talk/</loc>
   </url>
