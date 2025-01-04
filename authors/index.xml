@@ -5,12 +5,36 @@
     <link>https://hkim07.github.io/authors/</link>
       <atom:link href="https://hkim07.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkim07.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://hkim07.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Hyunuk Kim</title>
+      <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seonbin Jo</title>
+      <link>https://hkim07.github.io/authors/seonbin-jo/</link>
+      <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/seonbin-jo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Woo-Sung Jung</title>
+      <link>https://hkim07.github.io/authors/woo-sung-jung/</link>
+      <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://hkim07.github.io/authors/woo-sung-jung/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Chris Proctor</title>
@@ -29,14 +53,6 @@
     </item>
     
     <item>
-      <title>Hyunuk Kim</title>
-      <link>https://hkim07.github.io/authors/hyunuk-kim/</link>
-      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/hyunuk-kim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ronan McCarthy</title>
       <link>https://hkim07.github.io/authors/ronan-mccarthy/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
@@ -49,14 +65,6 @@
       <link>https://hkim07.github.io/authors/jisung-yoon/</link>
       <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://hkim07.github.io/authors/jisung-yoon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Woo-Sung Jung</title>
-      <link>https://hkim07.github.io/authors/woo-sung-jung/</link>
-      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://hkim07.github.io/authors/woo-sung-jung/</guid>
       <description></description>
     </item>
     
