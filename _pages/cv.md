@@ -1,1 +1,1 @@
-<embed src="{{ site.baseurl }}/files/cv_hyunuk_kim.pdf" width="600" height="700" type='application/pdf'>
+<embed src="https://hkim07.github.io/files/cv_hyunuk_kim.pdf" type="application/pdf" width="600px" height="500px" />
