@@ -23,7 +23,7 @@ repository               : # ".github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "profile.png"
   name             : "Hyunuk Kim, Ph.D."
   pronouns         : # "his"  
   bio              : "Assistant Professor of Business Analytics & Director of the Center for Applied Analytics and AI"
