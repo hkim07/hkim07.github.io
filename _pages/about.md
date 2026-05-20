@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hyunuk Kim, Ph.D."
+title: 
 author_profile: true
 redirect_from: 
   - /about/
