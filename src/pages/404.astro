@@ -1,0 +1,58 @@
+---
+import Page from '../layouts/Page.astro';
+---
+
+<Page title="404 - Page Not Found" description="This page could not be found">
+  <div class="not-found">
+    <h1>404</h1>
+    <p class="error-message">Page not found</p>
+    <p class="description">The page you're looking for doesn't exist or has been moved.</p>
+    <a href="/" class="home-link">Return to Home</a>
+  </div>
+
+  <style>
+    .not-found {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      text-align: center;
+    }
+
+    .not-found h1 {
+      font-size: 6rem;
+      font-weight: 700;
+      color: var(--color-accent);
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+
+    .error-message {
+      font-size: 1.5rem;
+      color: var(--color-text);
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      color: var(--color-text-secondary);
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .home-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: var(--color-accent);
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+
+    .home-link:hover {
+      background-color: var(--color-accent-hover);
+      text-decoration: none;
+    }
+  </style>
+</Page>

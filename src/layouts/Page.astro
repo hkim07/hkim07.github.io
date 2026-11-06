@@ -1,0 +1,195 @@
+---
+import Base from './Base.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<Base title={title} description={description}>
+  <div class="page-container">
+    <nav class="navbar">
+      <div class="nav-content">
+        <a href="/" class="nav-brand">HK</a>
+        <div class="nav-links">
+          <a href="/">About</a>
+          <a href="/publications">Publications</a>
+          <a href="/research">Research</a>
+          <a href="/portfolio">Projects</a>
+          <a href="/cv">CV</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2026 Hyunuk Kim. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=HNotJa0AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-4863-4729" target="_blank" rel="noopener">ORCID</a>
+          <a href="mailto:hkim6@elon.edu">Email</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <style is:global>
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .navbar {
+      border-bottom: 1px solid var(--color-border);
+      padding: 1.5rem 0;
+      position: sticky;
+      top: 0;
+      background-color: var(--color-bg);
+      z-index: 100;
+    }
+
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-brand {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--color-text);
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--color-text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      transition: color 0.2s;
+    }
+
+    .theme-toggle:hover {
+      color: var(--color-accent);
+    }
+
+    .sun-icon {
+      display: block;
+    }
+
+    [data-theme="dark"] .sun-icon {
+      display: none;
+    }
+
+    .moon-icon {
+      display: none;
+    }
+
+    [data-theme="dark"] .moon-icon {
+      display: block;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 2rem 0;
+    }
+
+    .footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 0;
+      margin-top: 4rem;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-content p {
+      color: var(--color-text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .page-container {
+        padding: 0 1rem;
+      }
+
+      .nav-links {
+        gap: 1rem;
+        font-size: 0.85rem;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-links a {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+    }
+  </script>
+</Base>

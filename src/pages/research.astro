@@ -1,0 +1,227 @@
+---
+import Page from '../layouts/Page.astro';
+---
+
+<Page title="Research" description="Research interests and highlights">
+  <div class="research-container">
+    <h1>Research</h1>
+    
+    <section class="research-section">
+      <h2>Research Interests</h2>
+      <div class="interest-grid">
+        <div class="interest-card">
+          <h3>🔗 Network Science & Graph Analysis</h3>
+          <p>Analyzing complex networks to understand information flow, collaboration patterns, and knowledge diffusion in academic and social contexts.</p>
+        </div>
+        <div class="interest-card">
+          <h3>🔤 Natural Language Processing</h3>
+          <p>Extracting insights from text data, understanding semantic relationships, and identifying patterns in scholarly discourse and social media.</p>
+        </div>
+        <div class="interest-card">
+          <h3>🤖 Machine Learning & AI</h3>
+          <p>Developing predictive models, classification algorithms, and recommendation systems for real-world applications in academic and business contexts.</p>
+        </div>
+        <div class="interest-card">
+          <h3>📊 Computational Social Science</h3>
+          <p>Using computational methods to study human behavior, cultural evolution, and collective dynamics in sociotechnical systems.</p>
+        </div>
+        <div class="interest-card">
+          <h3>⚠️ Misinformation & Disinformation</h3>
+          <p>Investigating the spread, detection, and mitigation of false information across social networks and online platforms.</p>
+        </div>
+        <div class="interest-card">
+          <h3>📱 Social Media Analytics</h3>
+          <p>Studying user behavior, information cascades, and community dynamics across social platforms like Twitter, Reddit, and others.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="research-section">
+      <h2>Methodological Toolkit</h2>
+      <div class="methods-grid">
+        <div class="method-box">
+          <h4>Network Analysis</h4>
+          <ul>
+            <li>Graph theory and algorithms</li>
+            <li>Community detection</li>
+            <li>Centrality measures</li>
+            <li>Diffusion models</li>
+          </ul>
+        </div>
+        <div class="method-box">
+          <h4>Natural Language Processing</h4>
+          <ul>
+            <li>Topic modeling</li>
+            <li>Sentiment analysis</li>
+            <li>Text classification</li>
+            <li>Word embeddings & transformers</li>
+          </ul>
+        </div>
+        <div class="method-box">
+          <h4>Machine Learning</h4>
+          <ul>
+            <li>Supervised learning</li>
+            <li>Unsupervised learning</li>
+            <li>Deep learning</li>
+            <li>Ensemble methods</li>
+          </ul>
+        </div>
+        <div class="method-box">
+          <h4>Statistical Analysis</h4>
+          <ul>
+            <li>Bayesian inference</li>
+            <li>Hypothesis testing</li>
+            <li>Regression analysis</li>
+            <li>Time series analysis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="research-section">
+      <h2>Research Collaborations</h2>
+      <p>I actively collaborate with researchers across multiple institutions, focusing on interdisciplinary approaches to understanding complex systems and information dynamics. Current research projects involve:</p>
+      <ul class="collaboration-list">
+        <li>Postdoctoral researchers and students at Elon University's Center for Applied Analytics and AI</li>
+        <li>Faculty members at Boston University and other leading research institutions</li>
+        <li>Industry partners interested in applied analytics and AI solutions</li>
+      </ul>
+    </section>
+  </div>
+
+  <style>
+    .research-container {
+      max-width: 900px;
+    }
+
+    .research-container h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    .research-section {
+      margin-bottom: 3rem;
+    }
+
+    .research-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      border-bottom: 2px solid var(--color-accent);
+      padding-bottom: 0.75rem;
+    }
+
+    .research-section p {
+      color: var(--color-text-secondary);
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    .interest-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .interest-card {
+      padding: 1.5rem;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      transition: all 0.3s;
+    }
+
+    .interest-card:hover {
+      border-color: var(--color-accent);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .interest-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+      color: var(--color-text);
+    }
+
+    .interest-card p {
+      font-size: 0.95rem;
+      color: var(--color-text-secondary);
+    }
+
+    .methods-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .method-box {
+      padding: 1.5rem;
+      background-color: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+    }
+
+    .method-box h4 {
+      font-size: 1rem;
+      color: var(--color-accent);
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .method-box ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .method-box li {
+      padding: 0.5rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+      color: var(--color-text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .method-box li:before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--color-accent);
+      font-weight: 600;
+    }
+
+    .collaboration-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+    .collaboration-list li {
+      padding: 0.75rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+      color: var(--color-text-secondary);
+    }
+
+    .collaboration-list li:before {
+      content: "○";
+      position: absolute;
+      left: 0;
+      color: var(--color-accent);
+    }
+
+    @media (max-width: 768px) {
+      .research-container h1 {
+        font-size: 1.8rem;
+      }
+
+      .research-section h2 {
+        font-size: 1.4rem;
+      }
+
+      .interest-grid,
+      .methods-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</Page>
