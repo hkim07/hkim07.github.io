@@ -168,37 +168,57 @@ button:focus-visible {
   }
 }
 
-.home-hero {
+.home-research {
   position: relative;
   overflow: hidden;
-  margin-bottom: clamp(3rem, 7vw, 5rem);
-  padding: clamp(1.5rem, 5vw, 3.5rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
   border: 1px solid var(--global-border-color);
   border-radius: 1.25rem;
   background:
-    radial-gradient(ellipse at 95% 0%, var(--home-glow-color), transparent 55%),
+    radial-gradient(ellipse at 100% 0%, var(--home-glow-color), transparent 50%),
     var(--global-footer-bg-color);
 
-  &__title {
-    max-width: 17ch;
-    margin: 0 0 0.45em;
-    font-size: clamp(2.35rem, 5vw, 4rem);
-    line-height: 1.08;
-    letter-spacing: -0.04em;
+  /* Section label: small uppercase tag instead of a full heading */
+  .home-research__label {
+    display: inline-block;
+    margin: 0 0 1.25rem;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 999px;
+    background: var(--global-bg-color);
+    color: var(--global-link-color);
+    font-family: $sans-serif;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    line-height: 1.4;
+    text-transform: uppercase;
+
+    &::after {
+      content: none;
+    }
   }
 
-  &__lede {
-    max-width: 56ch;
-    margin-bottom: 1.5rem !important;
-    color: var(--global-text-color-light);
-    font-size: clamp(1.08rem, 1.7vw, 1.28rem);
-    line-height: 1.75;
+  > p.home-research__lede {
+    max-width: 38ch;
+    margin: 0 0 clamp(2rem, 4vw, 3rem) !important;
+    font-family: $georgia;
+    font-size: clamp(1.45rem, 2.6vw, 2.1rem);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+    gap: 1rem;
   }
 
   &__actions {
     display: flex;
     flex-wrap: wrap;
     gap: 0.65rem;
+    margin-top: clamp(1.75rem, 3vw, 2.5rem);
   }
 
   &__button {
@@ -216,67 +236,40 @@ button:focus-visible {
   }
 }
 
-/* Override the generic .page__content h2 rule and its accent underline */
-.page__content .home-hero__title {
-  margin-top: 0;
-  padding-bottom: 0;
-  border-bottom: 0;
-
-  &::after {
-    content: none;
-  }
-}
-
-.home-eyebrow {
-  margin-bottom: 0.5rem !important;
-  color: var(--global-link-color);
-  font-family: $sans-serif;
-  font-size: 0.76rem !important;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  line-height: 1.4;
-  text-transform: uppercase;
-}
-
-.home-research {
-  margin-bottom: clamp(3rem, 7vw, 5rem);
-
-  > h2 {
-    max-width: 24ch;
-    margin-top: 0;
-    font-size: clamp(1.7rem, 3vw, 2.25rem);
-    line-height: 1.2;
-  }
-
-  &__intro {
-    max-width: 62ch;
-    color: var(--global-text-color-light);
-  }
-
-  &__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
-    gap: 1rem;
-    margin-top: 1.75rem;
-  }
-}
-
 .home-research-card {
-  padding: 1.35rem;
+  position: relative;
+  padding: 1.5rem 1.35rem 1.35rem;
   border: 1px solid var(--global-border-color);
   border-radius: 0.9rem;
-  background: var(--global-footer-bg-color);
+  background: var(--global-bg-color);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 
-  &__number {
-    color: var(--global-link-color);
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
+  /* Accent bar along the top edge */
+  &::before {
+    position: absolute;
+    top: -1px;
+    left: 1.35rem;
+    width: 2.5rem;
+    height: 3px;
+    border-radius: 0 0 3px 3px;
+    background: var(--global-base-color);
+    content: "";
+    transition: width 0.25s ease;
+  }
+
+  &:hover {
+    border-color: var(--global-dark-border-color);
+    box-shadow: 0 10px 24px rgba(28, 54, 48, 0.08);
+    transform: translateY(-3px);
+
+    &::before {
+      width: 4.5rem;
+    }
   }
 
   h3 {
-    margin: 1rem 0 0.55rem;
-    font-size: 1.15rem;
+    margin: 0 0 0.55rem;
+    font-size: 1.12rem;
     line-height: 1.35;
   }
 
@@ -285,22 +278,6 @@ button:focus-visible {
     color: var(--global-text-color-light);
     font-size: 0.94rem;
     line-height: 1.65;
-  }
-}
-
-.home-about {
-  padding-top: 1.75rem;
-  border-top: 1px solid var(--global-border-color);
-
-  h2 {
-    max-width: 24ch;
-    margin-top: 0;
-    font-size: clamp(1.7rem, 3vw, 2.25rem);
-    line-height: 1.2;
-  }
-
-  p:not(.home-eyebrow) {
-    max-width: 68ch;
   }
 }
 
@@ -384,12 +361,7 @@ button:focus-visible {
     margin-top: 2rem;
   }
 
-  .home-hero {
-    margin-bottom: 2.5rem;
-  }
-
-  .home-research,
-  .home-about {
+  .home-research {
     margin-bottom: 2.5rem;
   }
 
