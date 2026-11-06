@@ -1,240 +1,101 @@
-﻿# Hyunuk Kim - Academic Website
+# Academic Pages
+**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
-A modern academic portfolio website built with **Astro**, showcasing research, publications, projects, and professional information.
+![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 
-## 🌐 Live Site
+# Getting Started
 
-Visit: [https://hkim07.github.io](https://hkim07.github.io)
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Click the "Use this template" button in the top right.
+1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
+1. Edit site-wide configuration in `_config.yml` and double check that the `url` is the one that you just selected in the previous step and that `repository` reflects the correct path for your repository.
+1. Add your site content, upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-## 🚀 Features
+See more info at https://academicpages.github.io/
 
-### Content
-- **Home/About**: Professional profile with research highlights
-- **Publications**: Complete list of peer-reviewed publications with links
-- **Research**: Detailed research interests, methodologies, and collaborations
-- **Projects/Portfolio**: Showcase of research projects and case studies
-- **CV**: Curriculum vitae with downloadable PDF
+### Additional Tutorials
 
-### Technical Features
-- ⚡ **Lightning Fast**: Static site generation with Astro
-- 🎨 **Modern Design**: Clean, minimal, professional aesthetic
-- 🌓 **Dark Mode**: Automatic theme switching with localStorage persistence
-- 📱 **Responsive**: Mobile-first responsive design
-- ♿ **Accessible**: Semantic HTML, ARIA labels
-- 🔍 **SEO**: Optimized for search engines with sitemap
-- 🚀 **Performant**: Zero JavaScript by default, optimized CSS
+Additional tutorials for working with the Academic Pages template can be found at the following sites:
+- https://jayrobwilliams.com/posts/2020/06/academic-website/
 
-## 📋 Setup Instructions
+## Running locally
 
-### Prerequisites
-- Node.js 18.17+
-- npm (or your preferred package manager)
+When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
 
-### Installation
+1. Clone the repository and made updates as detailed above.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/hkim07/hkim07.github.io.git
-   cd hkim07.github.io
-   ```
+### Using a different IDE
+1. Make sure you have ruby-dev, bundler, and nodejs installed
+    
+    On most Linux distributions and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
+    ```bash
+    sudo apt install ruby-dev ruby-bundler nodejs
+    ```
+    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
+    ```bash
+    sudo apt update && sudo apt upgrade -y
+    ```
+    then try running `sudo apt install ruby-dev ruby-bundler nodejs` again.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+    On MacOS the commands are:
+    ```bash
+    brew install ruby
+    brew install node
+    gem install bundler
+    ```
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser
+    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
+    Install Gems Locally (Recommended):
+    ```bash
+    bundle config set --local path 'vendor/bundle'
+    ```
+    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
 
-4. **Build for production**
-   ```bash
-   npm run build
-   npm run preview  # Preview production build locally
-   ```
+1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stopping and restarting Jekyll.
+    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
 
-## 📁 Project Structure
+If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
-```
-.
-├── src/
-│   ├── layouts/
-│   │   ├── Base.astro       # Base HTML layout with theme support
-│   │   └── Page.astro       # Main page layout with navigation
-│   ├── pages/
-│   │   ├── index.astro      # Home page
-│   │   ├── publications.astro
-│   │   ├── research.astro
-│   │   ├── portfolio.astro
-│   │   ├── cv.astro
-│   │   └── 404.astro
-│   └── content/
-│       └── publications/    # Markdown publication files
-├── public/
-│   ├── files/               # PDFs and documents
-│   ├── images/              # Images and graphics
-│   └── favicon.svg          # Site favicon
-├── astro.config.mjs         # Astro configuration
-├── package.json             # Project dependencies
-└── .github/workflows/
-    └── deploy.yml           # GitHub Actions deployment
+## Using Docker
+
+Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+
+You can build and execute the container by running the following command in the repository:
+
+```bash
+chmod -R 777 .
+docker compose up
 ```
 
-## ✏️ Content Management
+You should now be able to access the website from `localhost:4000`.
 
-### Adding Publications
+### Using the DevContainer in VS Code
 
-Publications are stored as Markdown files in `src/content/publications/`.
+If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
 
-Create a new file (e.g., `2024_journal.md`):
+# Maintenance
 
-```markdown
----
-title: "Paper Title Here"
-collection: publications
-category: manuscripts
-permalink: /publication/2024_journal
-excerpt: "A brief description of your paper..."
-date: 2024-11-16
-venue: 'Journal Name'
-paperurl: 'https://doi.org/...'
----
-```
+Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
 
-### Editing Pages
+This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii), and additional maintainers would be welcome.
 
-Main pages are in `src/pages/`:
-- **index.astro** - Home/About section
-- **publications.astro** - Publications list
-- **research.astro** - Research interests and methods
-- **portfolio.astro** - Projects and case studies
-- **cv.astro** - Curriculum vitae
+## Bugfixes and enhancements
 
-### Updating Styling
+If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of the template to your fork as well.
 
-Global styles are defined in `src/layouts/Base.astro` using CSS custom properties (variables). To customize:
-
-```css
-:root {
-  --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-secondary: #666666;
-  --color-border: #e5e5e5;
-  --color-accent: #2563eb;         /* Primary color - change this */
-  --color-accent-hover: #1d4ed8;
-}
-```
-
-Dark mode styles are in `[data-theme="dark"]` selector.
-
-### Adding Images
-
-Place images in `public/images/` and reference them:
-```html
-<img src="/images/photo.jpg" alt="Description" />
-```
-
-## 🚀 Deployment
-
-### GitHub Pages (Recommended)
-
-1. Ensure `site` in `astro.config.mjs` is set to your GitHub Pages URL
-2. Push to `main` or `master` branch
-3. GitHub Actions automatically builds and deploys
-4. Enable "GitHub Actions" in repository settings under Pages
-
-The deployment workflow (`.github/workflows/deploy.yml`) handles everything automatically.
-
-### Other Hosting Platforms
-
-The `dist/` folder generated by `npm run build` can be deployed to:
-- **Netlify**: Connect repository, build command: `npm run build`
-- **Vercel**: Similar to Netlify, auto-detects Astro
-- **Cloudflare Pages**: Upload `dist/` folder
-- **Traditional Web Hosting**: Upload `dist/` via FTP/SSH
-
-## 🎨 Customization
-
-### Change Primary Color
-
-Edit `src/layouts/Base.astro`:
-```css
---color-accent: #2563eb;         /* Change to your preferred color */
---color-accent-hover: #1d4ed8;
-```
-
-### Change Fonts
-
-Update font imports in `Base.astro`. Currently using:
-- **Inter** - Body text (from Google Fonts)
-- **JetBrains Mono** - Code blocks
-
-### Add Analytics
-
-Astro integrates with various analytics services. Add to `integrations` in `astro.config.mjs`:
-
-```javascript
-import { defineConfig } from 'astro/config';
-
-export default defineConfig({
-  integrations: [
-    // Your analytics integration
-  ],
-});
-```
-
-### Extend with Components
-
-Add React components by creating files in `src/components/`:
-
-```astro
----
-import MyComponent from '../components/MyComponent.jsx';
----
-
-<Page>
-  <MyComponent client:load />
-</Page>
-```
-
-## 📊 Analytics & SEO
-
-- Sitemap auto-generated at `/sitemap-index.xml`
-- Mobile-friendly and responsive
-- Meta tags for social sharing
-- Fast Core Web Vitals
-
-Add Google Analytics or other services to `astro.config.mjs` integrations.
-
-## 🔧 Commands
-
-| Command | Purpose |
-|---------|---------|
-| `npm run dev` | Start local development server (port 3000) |
-| `npm run build` | Build for production to `dist/` |
-| `npm run preview` | Preview production build locally |
-| `npm run astro` | Run Astro CLI directly |
-
-## 📝 License
-
-This project is open source. Modify and use for your own academic website.
-
-## 🤝 Support & Resources
-
-- **[Astro Documentation](https://docs.astro.build)**
-- **[Deploy Guide](https://docs.astro.build/en/guides/deploy/)**
-- **[Astro Community](https://astro.build/chat)**
-
-## 📫 Contact
-
-For questions or suggestions about the website:
-- Email: [hkim6@elon.edu](mailto:hkim6@elon.edu)
-- Website: [https://hkim07.github.io](https://hkim07.github.io)
+Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize, although [rebasing](https://git-scm.com/docs/git-rebase) the changes from this template will work along with manually [cherry picking](https://git-scm.com/docs/git-cherry-pick) the relevant commits. If you are not comfortable with the Git command line, you can save your various `.yml` configuration files and Markdown files, delete the repository, and fork it again. 
 
 ---
+<div align="center">
+    
+![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-**Built with Astro** — A framework for building faster websites with less JavaScript.
-
-Last updated: 2026-11-05
+[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+</div>
