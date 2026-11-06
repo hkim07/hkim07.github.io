@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <section class="home-hero" aria-labelledby="home-hero-title">
-  <h1 id="home-hero-title">My research examines how individuals process information and shape knowledge, community, and society.</h1>
+  <h2 id="home-hero-title" class="home-hero__title">My research examines how individuals process information and shape knowledge, community, and society.</h2>
   <p class="home-hero__lede">I use network analysis, bibliometrics, text analysis, and computational modeling to study how information and individual choices connect to collective outcomes.</p>
   <div class="home-hero__actions">
     <a class="btn home-hero__button" href="/publications/">Explore my research <span aria-hidden="true">&rarr;</span></a>

@@ -3,6 +3,7 @@
    ========================================================================== */
 
 :root {
+  --main-offset: clamp(2.5rem, 6vw, 5rem);
   --global-base-color: #176b68;
   --global-bg-color: #f7f8f6;
   --global-footer-bg-color: #eef2f0;
@@ -124,8 +125,17 @@ button:focus-visible {
 #main {
   flex: 1 0 auto;
   width: 100%;
-  margin-top: clamp(2.5rem, 6vw, 5rem);
+  margin-top: var(--main-offset);
   margin-bottom: 2rem;
+}
+
+/* The sidebar is fixed, so pin its top to the same offset as the main content */
+@media (min-width: $sidebar-screen-min-width) {
+  .sidebar {
+    top: calc(#{$masthead-height} + var(--main-offset));
+    height: calc(100vh - #{$masthead-height} - var(--main-offset));
+    padding-top: 0;
+  }
 }
 
 .page__title {
@@ -169,9 +179,9 @@ button:focus-visible {
     radial-gradient(ellipse at 95% 0%, var(--home-glow-color), transparent 55%),
     var(--global-footer-bg-color);
 
-  h1 {
+  &__title {
     max-width: 17ch;
-    margin: 0.45em 0;
+    margin: 0 0 0.45em;
     font-size: clamp(2.35rem, 5vw, 4rem);
     line-height: 1.08;
     letter-spacing: -0.04em;
@@ -203,6 +213,17 @@ button:focus-visible {
     &:hover span {
       transform: translateX(3px);
     }
+  }
+}
+
+/* Override the generic .page__content h2 rule and its accent underline */
+.page__content .home-hero__title {
+  margin-top: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+
+  &::after {
+    content: none;
   }
 }
 
