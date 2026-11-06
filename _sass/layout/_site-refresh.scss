@@ -441,3 +441,20 @@ button:focus-visible {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* Wider site container, shared by header, content, and footer */
+$site-max-width: 1440px;
+
+#main,
+.masthead__inner-wrap,
+.page__footer footer,
+.breadcrumbs {
+  max-width: $site-max-width;
+}
+
+@media (min-width: 925px) {
+  .page,
+  .archive {
+    padding-left: clamp(1.5rem, 3vw, 3.5rem);
+  }
+}
